@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called 'name' and set it to the string 'Dane'.
+// We have an if/else conditional. It checks if the variable 'name' is set to the string 'Mary', if it is
+//it console logs 'Hi, Mary!'.
+// if the variable 'name' is not set to the string 'Mary' then it console logs the string 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make two different variables, 'secret' which is given no value and 'code' which is given a number value of 123.
+// we have a conditional that checks if the variable 'code' is exactly equal to the number value of 123. If it is then
+// it changes the value of variable 'secret' to the string 'super' and the variable 'code' to the number value 246.
+// we have another conditional that now checks if the variable 'code' is a number value greater than 250.
+// The variable 'code' is not greater than 250, so it will not change the value of the variable 'secret'.
+// Console log displays the current value for the variable 'secret', which is currently set to 'super'.
 
 //CODE
 /*
