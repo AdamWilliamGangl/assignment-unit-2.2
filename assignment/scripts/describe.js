@@ -117,9 +117,9 @@ if (isStudent === true && zip > 80000 ) {
 /*
 let number = 1;
 
-// FIX - number-- decrements number, but the instructions ask to increment. 
+// FIX - number-- decrements number, but the instructions ask to increment.
 // Should be number++.
-number--; 
+number--;
 
 if (number >= 2) {
   console.log('yes');
@@ -167,6 +167,19 @@ if (temp > 39 || time >= 4) {
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
+
+//FIX
+//If conditional currently is checking if minAge is less than or equal to age and should instead check if age is greater than or equal to minAge
+//like this: if(age >= minAge)
+//Due to our above change we need to change the console log within the if portion of the conditional to read 'enter'
+//Finally this would then cause us to need to change our final console log to read 'no entry' given the multiple required changes I will rewite the entire conditional below:
+/*
+if(age >= minAge){
+  console.log('enter');
+}
+else {
+  console.log ('no entry');
+}
 
 /*
 let age = 21;
