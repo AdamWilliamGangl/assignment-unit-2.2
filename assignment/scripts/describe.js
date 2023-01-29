@@ -72,10 +72,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create three variables, 'isStudent' - which is a bulleon set to true, age - which is set to the number 34 and zip - which is set to the number 55407
+// We have an if, else if, else if, else conditional. If the variable isStudent is set to true and the zip code is greater than the number value 80000
+// then the console log would display 'You're a student on the West Coast'. This is not the case, so we move down to the next portion of the conditional.
+// The next portion of the conditional checks if the variable isStudent is false or if the variable age is less than the number value 30. This is not the case so we move to the next portion of the conditional.
+// The next portion of the conditional checks if the variable isStudent is true. If so it will console log the string "Welcome to Prime!". This conditional is fulfilled so the console log will display this message.
+// If none of the prior conditions had been met the console log would display the string 'How about the weather?'. Another condition previously was met, so this console log will not run.
 
 //CODE
 /*
